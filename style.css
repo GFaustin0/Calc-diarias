@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(16, 17, 17);
+    padding-bottom: 1.6rem;
+}
+
+input {
+    width: 26rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    padding: 1.6rem;
+    border-radius: .8rem;
+    border: none;
+
+}
+
+#calcDays {
+    background-color: rgb(132, 0, 255);
+    width: 26rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    border-radius: .8rem;
+    border: none;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding-bottom: 1.6rem;
+}
+
+label {
+    font-size: 1.6rem;
+}
+
+.close {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.modal {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.modal-itens {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    width: 38rem;
+    height: 18rem;
+    border-radius: 1.6rem;
+    text-align: center;
+
+}
+
+.closeModal {
+    background-color: rgb(132, 0, 255);
+    width: 20rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    border-radius: .8rem;
+    border: none;
+    font-weight: 500;
+    color: aliceblue;
+    margin-top: 2.2rem;
+
+}
+
+h2,
+p {
+    text-align: center;
+    margin-top: 2.4rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 2.2rem;
+}
